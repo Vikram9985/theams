@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme 1: Minimalist Light (Default) */
+.theme1 {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+  --font-family: 'Inter', sans-serif;
+}
+
+/* Theme 2: Dark with Sidebar */
+.theme2 {
+  --bg-color: #0f172a;
+  --text-color: #f8fafc;
+  --font-family: 'Merriweather', serif;
+}
+
+/* Theme 3: Colorful Playful Cards */
+.theme3 {
+  --bg-color: #fef3c7;
+  --text-color: #1f2937;
+  --font-family: 'Pacifico', cursive;
+}
+
+html {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  transition: all 0.4s ease-in-out;
+}
